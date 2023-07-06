@@ -1,0 +1,16 @@
+div{
+    text-align: center;
+    font-family: sans-serif;
+    color: #5c789b;
+    height: 50em;
+}
+h2{
+    padding-top: 250px;
+    margin: auto;
+    width: 50%;
+}
+img{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}

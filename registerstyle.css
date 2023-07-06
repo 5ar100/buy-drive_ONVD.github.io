@@ -1,0 +1,184 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.navigacija{
+    display: flex;
+    background: linear-gradient(#364f6b,#5c789b);
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 70px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.navigacija li{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+}
+.logo_pocetna{
+    height: 100px;
+    width: 300px;
+    display: inline;
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 150px;
+}
+nav .new_oglas{
+    display: flex;
+    background: linear-gradient(#364f6b,#5c789b);
+    margin-top: 0;
+    height: 70px;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    padding-right: 40px;
+}
+nav .login{
+    display: flex;
+    background: linear-gradient(#364f6b,#5c789b);
+    margin-top: 0;
+    height: 70px;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    padding-right: 140px;
+}
+li a:link{
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+li a:visited{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+li a:hover{
+    background: white;
+    color:#364f6b;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+span a:link{
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+span a:visited{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+span a:hover{
+    background: white;
+    color:#364f6b;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.login a:link{
+    color:black;
+    background: #fff9b0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.login a:visited{
+    color: black;
+    background: #fff9b0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.login a:hover{
+    background: white;
+    color:#364f6b;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.footer{
+    height: 100px;
+    background: #3c3f41;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #edeef0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer p{
+    padding: 25px 0;
+}
+.loginform{
+    height: 90vh;
+    background: #edeef0;
+    display: flex;
+}
+fieldset{
+    background: whitesmoke;
+    height: 550px;
+    width: 480px;
+    border: #5c789b 1px solid;
+    border-radius: 15px;
+}
+form{
+    margin-top:5%;
+    margin-left: 35%;
+    width: 40%;
+}
+label{
+    display: block;
+    padding: 30px 30px 0 70px;
+    color:#364f6b;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+}
+label input{
+    display: block;
+    height: 35px;
+    width: 330px;
+    border: none;
+    border-bottom: #989898 solid 1px;
+    background: #f4f4f4;
+    font-size: 15px;
+}
+#reg,#reg:visited{
+    margin-left: 130px;
+    padding: 12px 43px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(#5c789b,#364f6b);
+    border-radius:6px;
+}
+#reg:active{
+    margin-left: 130px;
+    padding: 12px 43px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    background: linear-gradient(#2f6888, #1e4367);
+    border-radius:6px;
+}
+#checkbox{
+    display: inline;
+    position: absolute;
+    margin-left: 1px;
+    width: 15px;
+    height: 15px;
+}

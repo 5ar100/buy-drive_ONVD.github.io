@@ -1,0 +1,239 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.navigacija{
+    display: flex;
+    background: linear-gradient(#364f6b,#5c789b);
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 70px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.navigacija li{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+}
+.logo_pocetna{
+    height: 100px;
+    width: 300px;
+    display: inline;
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 150px;
+}
+nav .new_oglas{
+    display: flex;
+    background: linear-gradient(#364f6b,#5c789b);
+    margin-top: 0;
+    height: 70px;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    padding-right: 40px;
+}
+nav .login{
+    display: flex;
+    background: linear-gradient(#364f6b,#5c789b);
+    margin-top: 0;
+    height: 70px;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    padding-right: 140px;
+}
+li a:link{
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+li a:visited{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+li a:hover{
+    background: white;
+    color:#364f6b;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+span a:link{
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+span a:visited{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+span a:hover{
+    background: white;
+    color:#364f6b;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.login a:link{
+    color:black;
+    background: #fff9b0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.login a:visited{
+    color: black;
+    background: #fff9b0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.login a:hover{
+    background: white;
+    color:#364f6b;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.mainpart{
+    margin-top: 0;
+    height: 900px;
+    background-image: url("images/wallpaperflare.com_wallpaper (1).jpg");
+    animation-name: pozadini;
+    animation-duration: 75s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 15s;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+@keyframes pozadini {
+    0%{
+        background-image: url("images/wallpaperflare.com_wallpaper (1).jpg");
+    }
+    25%{
+        background-image: url("images/car-BMW-vehicle-sports-car-BMW-M3-BMW-E36-291329-wallhere.com.jpg");
+    }
+    50%{
+        background-image: url("images/golfovi.jpg");
+    }
+    75%{
+        background-image: url("images/TutV81.jpg");
+    }
+    100%{
+        background-image: url("images/SAJT1.jpg");
+    }
+}
+fieldset{
+    border: #edeef0 1px solid;
+    border-radius: 15px;
+    background: #edeef0;
+    height: 500px;
+    width: 1000px;
+}
+fieldset select{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    display: block;
+}
+.forma {
+    padding: 170px 0;
+    padding-right: 120px;
+    margin: auto;
+    width: 50%;
+}
+fieldset label{
+    padding: 30px;
+    display: block;
+    width: 40%;
+    float:left;
+}
+.leasing{
+    float: right;
+    height: 400px;
+    width: 45%;
+    border-left:solid 1px dimgray;
+    padding-left: 10px;
+    margin-top:60px;
+    margin-bottom: 250px;
+    padding-left: 70px;
+}
+.btn{
+    float:left;
+    display: block;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    background: #5c789b;
+    border-radius: 5px;
+    border:1px solid #5c789b;
+    color: #edeef0;
+}
+section p{
+    margin-left:-35px;
+    line-height: 28px;
+}
+.btn:hover{
+    background: #fff9b0;
+    color: black;
+    cursor: pointer;
+}
+.faq{
+    background: #edeef0;
+    height: 890px;
+    margin: 0 300px;
+    padding: 5px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-left: lightgray 1px solid;
+    border-right: lightgray 1px solid;
+}
+.faq p{
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: justify;
+    line-height: 25px;
+}
+.nadvoresno{
+    background: #edeef0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: -15px;
+}
+.info{
+    padding-top: 60px;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.footer{
+    height: 100px;
+    background: #3c3f41;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #edeef0;
+    text-align: center;
+}
+.footer p{
+    padding: 41px 0;
+}
+fieldset a{
+    text-decoration: none;
+}

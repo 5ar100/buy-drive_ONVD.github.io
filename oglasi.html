@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy&Drive | Сите понуди</title>
+  <link rel="stylesheet" href="oglasistyle.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+<nav>
+  <a href="index.html"><img class="logo_pocetna" src="images/logo%20transparent.png" alt="logo"></a>
+  <span style="float: right" class="login"><a href="login.html">Логирај се</a></span>
+  <span style="float: right" class="new_oglas"><a href="login.html" onclick="myFunction()">Прикачи нов оглас</a></span>
+  <ul class="navigacija">
+    <li style="padding-left: 440px"><a href="index.html">Почетна</a></li>
+    <li><a href="oglasi.html">Сите огласи</a></li>
+    <li><a href="index.html#info">За нас</a></li>
+    <li><a href="index.html#kont">Контакт</a></li>
+    <li><a href="pomos.html">Помош</a></li>
+  </ul>
+</nav>
+<div class="dopolnitelen_nav">
+    <div class="forma_dop">
+        <fieldset>
+            <label style="padding-top: 50px">
+                Одберете марка:
+                <select class="marka" name="marka" style="margin-top: 5px"><option value="">Одберете марка</option><option value="81">Audi</option><option value="84">BMW</option><option value="95">Ford</option><option value="113">Mercedes-Benz</option><option value="118">Opel</option><option value="134">VW Volkswagen</option><option value="0" disabled="">____________________</option><option value="10081">Abarth</option><option value="77">Acura</option><option value="78">Aixam</option><option value="79">Alfa Romeo </option><option value="80">Aston Martin</option><option value="81">Audi </option><option value="82">Bentley</option><option value="83">Buick</option><option value="84">BMW </option><option value="85">Cadillac</option><option value="86">Chevrolet</option><option value="87">Chrysler</option><option value="88">Citroen</option><option value="89">Dacija</option><option value="90">Daewoo</option><option value="91">Daihatsu</option><option value="92">Dodge</option><option value="10082">DS Automobiles</option><option value="93">Ferrari</option><option value="94">Fiat</option><option value="95">Ford</option><option value="96">Honda</option><option value="97">Hummer</option><option value="98">Hyundai</option><option value="10083">Infiniti</option><option value="99">Isuzu</option><option value="100">Jaguar</option><option value="101">Jeep</option><option value="102">Kia</option><option value="103">Lada</option><option value="104">Lamborghini</option><option value="105">Lancia</option><option value="106">LandRover</option><option value="107">Lexus</option><option value="108">Liger</option><option value="109">Lotus</option><option value="110">Maserati</option><option value="111">Maybach</option><option value="112">Mazda</option><option value="113">Mercedes-Benz</option><option value="114">MG</option><option value="115">Mini</option><option value="116">Mitsubishi</option><option value="117">Nissan</option><option value="118">Opel</option><option value="119">Peugeot</option><option value="120">Pontiac</option><option value="121">Porsche</option><option value="122">Proton</option><option value="123">Renault</option><option value="124">Rolls-Royce</option><option value="125">Rover</option><option value="126">Saab</option><option value="127">Seat</option><option value="128">Skoda</option><option value="129">Smart</option><option value="130">Ssangyong</option><option value="131">Subaru</option><option value="132">Suzuki</option><option value="11267">Tesla</option><option value="133">Toyota</option><option value="134">VW Volkswagen</option><option value="135">Volvo</option><option value="136">Wartburg</option><option value="137">Yugo</option><option value="138">Zastava</option><option value="139">Други</option></select>
+            </label>
+            <label >
+                Цена до:
+                <select class="cena_do" name="cena_do" style="margin-top: 5px">
+                    <option value="">Цена (€) До</option>
+                    <option value="500">500</option>
+                    <option value="1000">1.000</option>
+                    <option value="2000">2.000</option>
+                    <option value="3000">3.000</option>
+                    <option value="4000">4.000</option>
+                    <option value="5000">5.000</option>
+                    <option value="6000">6.000</option>
+                    <option value="7000">7.000</option>
+                    <option value="8000">8.000</option>
+                    <option value="9000">9.000</option>
+                    <option value="10000">10.000</option>
+                    <option value="11000">11.000</option>
+                    <option value="12000">12.000</option>
+                    <option value="13000">13.000</option>
+                    <option value="14000">14.000</option>
+                    <option value="15000">15.000</option>
+                    <option value="16000">16.000</option>
+                    <option value="17000">17.000</option>
+                    <option value="18000">18.000</option>
+                    <option value="19000">19.000</option>
+                    <option value="20000">20.000</option>
+                    <option value="21000">21.000</option>
+                    <option value="22000">22.000</option>
+                    <option value="23000">23.000</option>
+                    <option value="24000">24.000</option>
+                    <option value="25000">25.000</option>
+                    <option value="26000">26.000</option>
+                    <option value="27000">27.000</option>
+                    <option value="28000">28.000</option>
+                    <option value="29000">29.000</option>
+                    <option value="30000">30.000</option>
+                    <option value="35000">35.000</option>
+                    <option value="40000">40.000</option>
+                    <option value="45000">45.000</option>
+                    <option value="50000">50.000</option>
+                    <option value="60000">60.000</option>
+                    <option value="70000">70.000</option>
+                    <option value="80000">80.000</option>
+                    <option value="90000">90.000</option>
+                    <option value="120000">120.000</option>
+                    <option value="150000">150.000</option>
+                    <option value="250000">250.000</option>
+                </select>
+            </label>
+            <label>
+                Година од:
+                <select class="godina" name="godina" style="margin-top: 5px"><option value="">Година Од</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">&lt;&lt;1980</option></select>
+            </label>
+            <a href="oglasi.html"><input class="btn" type="button" name="Пребарувај" value="Пребарувај"></a>
+        </fieldset>
+    </div>
+</div>
+<div class="main">
+  <div class="container">
+      <div class="oglas">
+          <h2> <a href="error.html">Volkswagen Golf 5 2.0 SDI 2005 godina</a></h2>
+          <h2 style="display: inline;float: right;color: #5c789b;margin-top:-9px">&euro;4450</h2>
+          <img src="images/golf/golf%20(6)%20-%20Copy.jpg" alt="golf5"> <br>
+          <p style="color: dimgray;display: inline-block;padding: 20px 20px"> Se prodava Golf 5 2.0 SDI, vtor gazda sum go imam od 2021. Ima mala potrosuvacka otpril...</p>
+          <p style="display: inline-block; position: absolute;margin-left: -35.5%;margin-top:8.5%; color: black">
+              <img src="images/location-icon-white-png-2.png" style="height:15px; width: 15px; display: inline;margin-right: 5px"> Карпош/Скопје
+          </p>
+          <p class="zacuvaj">
+              <a href="login.html">Зачувај</a>
+          </p>
+      </div>
+      <div class="oglas">
+          <h2> <a href="error.html">Honda Civic Type-S 2.2 iCTDi 143ks</a></h2>
+          <h2 style="display: inline;float: right;color: #5c789b;margin-top:-9px">&euro;5300</h2>
+          <img src="images/naslovni/civic%20(4).jpg" alt="civic"> <br>
+          <p style="color: dimgray;display: inline-block;padding: 20px 20px">Prodavam Civic Type-S dizel 2008 godina, 103KW 140ks registrirana do 07.2023, smeneto n...</p>
+          <p style="display: inline-block; position: absolute;margin-left: -36%;margin-top:8.5%; color: black">
+              <img src="images/location-icon-white-png-2.png" style="height:15px; width: 15px; display: inline;margin-right: 5px"> Центар/Скопје
+          </p>
+          <p class="zacuvaj" style="margin-left: 103px">
+              <a href="login.html">Зачувај</a>
+          </p>
+      </div>
+      <div class="oglas">
+          <h2> <a href="error.html">Lancia Dedra 1.9TD registrirana cela godina</a></h2>
+          <h2 style="display: inline;float: right;color: #5c789b;margin-top:-9px">&euro;2350</h2>
+          <img src="images/naslovni/dedra%20(1).jpg" alt="dedra"> <br>
+          <p style="color: dimgray;display: inline-block;padding: 20px 20px"> Vo moja sopstvenost e 19 godini ima pominato samo 124 iljadi kilometri. Registrirana e ...</p>
+          <p style="display: inline-block; position: absolute;margin-left: -34%;margin-top:8.5%; color: black">
+              <img src="images/location-icon-white-png-2.png" style="height:15px; width: 15px; display: inline;margin-right: 5px"> Карпош/Скопје
+          </p>
+          <p class="zacuvaj" style="margin-left: 143px">
+              <a href="login.html">Зачувај</a>
+          </p>
+      </div>
+      <div class="oglas">
+          <h2> <a href="error.html">Fiat Grande Punto 1.2 benzin/plin</a></h2>
+          <h2 style="display: inline;float: right;color: #5c789b;margin-top:-9px">&euro;3300</h2>
+          <img src="images/naslovni/iva%20punto%20(2).jpg" alt="grande punto"> <br>
+          <p style="color: dimgray;display: inline-block;padding: 20px 20px"> Grande Punto 1.2 so plin Landirenzo so a-test staven pred 3 godina. Kolata e 2009ta god...</p>
+          <p style="display: inline-block; position: absolute;margin-left: -34.68%;margin-top:8.5%; color: black">
+              <img src="images/location-icon-white-png-2.png" style="height:15px; width: 15px; display: inline;margin-right: 5px"> Ѓорче Петров/Скопје
+          </p>
+          <p class="zacuvaj" style="margin-left: 130px">
+              <a href="login.html">Зачувај</a>
+          </p>
+      </div>
+      <div class="oglas">
+          <h2> <a href="error.html">Ford Focus MK2 1.4 benzin</a></h2>
+          <h2 style="display: inline;float: right;color: #5c789b;margin-top:-9px">&euro;3690</h2>
+          <img src="images/naslovni/fokus%20(6)%20-%20Copy.jpg" alt="fokus mk2"> <br>
+          <p style="color: dimgray;display: inline-block;padding: 20px 20px"> Se prodava Ford Focus mk2 1.4 benzin 59kw 82 konj, kupe so 3 vrati, redovno servisirana...</p>
+          <p style="display: inline-block; position: absolute;margin-left: -35.5%;margin-top:8.5%; color: black">
+              <img src="images/location-icon-white-png-2.png" style="height:15px; width: 15px; display: inline;margin-right: 5px"> Карпош/Скопје
+          </p>
+          <p class="zacuvaj" style="margin-left: 123px">
+              <a href="login.html">Зачувај</a>
+          </p>
+      </div>
+      <div class="oglas">
+          <h2> <a href="error.html">Се продава Ford Focus MK3.5 ST 2.0 Turbo</a></h2>
+          <h2 style="display: inline;float: right;color: #5c789b;margin-top:-9px; margin-right: -5px; ">&euro;16450</h2>
+          <img src="images/fokus%20v/v%20(5).jpg" alt="focus st"> <br>
+          <p style="color: dimgray;display: inline-block;padding: 20px 20px"> Колата ја имам година дена. Регистрирана е до 2024 есен на германски таблици, има нови ...</p>
+          <p style="display: inline-block; position: absolute;margin-left: -37.5%;margin-top:8.5%; color: black">
+              <img src="images/location-icon-white-png-2.png" style="height:15px; width: 15px; display: inline;margin-right: 5px"> Центар/Скопје
+          </p>
+          <p class="zacuvaj" style="margin-left: 78px">
+              <a href="login.html">Зачувај</a>
+          </p>
+      </div>
+      <div class="oglas" style="border-bottom: none">
+          <h2> <a href="error.html">Audi A4 Avant 2.5 TDI</a></h2>
+          <h2 style="display: inline;float: right;color: #5c789b;margin-top:-9px; margin-right: -30px;">По договор</h2>
+          <img src="images/naslovni/audi%20(5).jpg" alt="audi avant"> <br>
+          <p style="color: dimgray;display: inline-block;padding: 20px 20px">full oprema, cela godina registrirana, redovno servisirana, novi gumi, vozena glavno na...</p>
+          <p style="display: inline-block; position: absolute;margin-left: -33.88%;margin-top:8.5%; color: black">
+              <img src="images/location-icon-white-png-2.png" style="height:15px; width: 15px; display: inline;margin-right: 5px" alt="icon"> Охрид
+          </p>
+          <p class="zacuvaj"  style="margin-left: 147px">
+              <a href="login.html">Зачувај</a>
+          </p>
+      </div>
+  </div>
+</div>
+<div class="footer" style="margin-top:5px; position: relative">
+  <a href="oglasi.html" style="display: inline"><img src="images/523835.png" style="width: 50px; height: 50px; display: inline; float:right; margin: 24px 0;border:1px solid; background: #edeef0; border-radius: 25px; margin-right: 20px" alt="arrow"></a>
+  <p>&copy;Buy&Drive 2023 - Created by Petar Stojanovski</p>
+</div>
+</body>
+</html>
